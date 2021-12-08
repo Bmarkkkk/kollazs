@@ -1,10 +1,9 @@
-
-style
-    button{
-        border-radius: 5px;
-    }
-    a{
-        text-decoration: none;
-    }
-  style
-    
+a{
+    text-decoration: none;
+}
+button{
+    border-radius: 5px;
+}
+body{
+    text-align: center;
+}
