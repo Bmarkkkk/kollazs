@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
 a{
     text-decoration: none;
 }
@@ -27,6 +28,7 @@ body{
   
   
   .sidebar a.active {
+    font-family: 'The Nautigal', cursive;
     background-color: #48e0d4;
     color: rgb(25, 47, 143);
   }
