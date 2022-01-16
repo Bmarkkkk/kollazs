@@ -7,7 +7,7 @@ h1{
 }
 
 body{
-  
+  margin: 0;
  
 }
 button{
@@ -21,7 +21,7 @@ a{
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #970897;
+  background-color: #dfdddf;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -42,7 +42,7 @@ a{
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(189, 218, 25);
   color: white;
 }
 
