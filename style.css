@@ -2,7 +2,7 @@
 
 h1{
   font-family: 'Moon Dance', cursive;
-  font-size: 80px;
+  
   
 }
 
@@ -15,14 +15,13 @@ button{
     background-color: darkcyan;
 }
 a{
-  color: aqua;
-  text-decoration: none;
+ 
 }
 .sidebar {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #f1f1f1;
+  background-color: #dfdddf;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -36,14 +35,14 @@ a{
 }
 
 .sidebar a.active {
-  font-family: 'Rubik Beastly', cursive;
+  
   font-size: 30px;
-  background-color: #9e06e8;
+  background-color: #46e806;
   color: white;
 }
 
 .sidebar a:hover:not(.active) {
-  background-color: #555;
+  background-color: rgb(255, 0, 0);
   color: white;
 }
 
