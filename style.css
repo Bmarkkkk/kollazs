@@ -74,3 +74,12 @@ div.content {
       float: none;
   }
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(76, 0, 255);
+  color: white;
+  text-align: center;
+}
