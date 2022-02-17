@@ -1,0 +1,13 @@
+body{
+    background-color: darkorchid;
+}
+h1{
+    color: rgb(103, 162, 214);
+    text-align: center;
+}
+fieldset{
+    max-width: 500px;
+    max-height: 200px;
+    border: 1px solid white
+    margin-bottom: 20px;
+  }
