@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,36 +38,39 @@
 <body>
     <h1>Pizza rendelés</h1>
     
-    <fieldset><legend>Adataid</legend>
-        <p> Vezeték név és Keresztnév:<input type='text'></p>  
-        <p>Telefonszám:<input type='text'></p>
-        <p>Szállítási cím:<input type='text'></p>
-    </fieldset>
-
-    <fieldset>
-        <legend>Pizza Méret</legend>
-
-    <p> Kicsi<input type='radio' name='meret'></p>
-    <p> Közepes<input type='radio' name='meret'></p>   
-    <p> Nagy<input type='radio' name='meret'></p>
-
-     </fieldset>
-
-     <fieldset> 
-         <legend>Pizza fajta</legend>
-        <p>Hawai<input type='checkbox'></p>
-        <p>Kukoricás<input type='checkbox'></p>
-        <p>Sonkás<input type='checkbox'></p> 
-        <p>Húsimádó<input type='checkbox'></p>
-        <p>4 Sajtos<input type='checkbox'></p>
+    <form action="Rendelés">
+        <fieldset><legend>Adataid</legend>
+            <p> Vezeték név és Keresztnév:<input type='text'value=></p>
+            <p>Telefonszám:<input type='text'></p>
+            <p>Szállítási cím:<input type='text'></p>
+        </fieldset>
+        <fieldset>
+            <legend>Pizza Méret</legend>
+        <p> Kicsi<input type='radio' name='meret' value="kicsi"></p>
+        <p> Közepes<input type='radio' name='meret'value="közepes"></p>
+        <p> Nagy<input type='radio' name='meret'value="nagy"></p>
+         </fieldset>
+         <fieldset>
+             <legend>Pizza fajta</legend>
+            <p>Hawai<input type='checkbox'value="hawai"></p>
+            <p>Kukoricás<input type='checkbox'value="kukoricas"></p>
+            <p>Sonkás<input type='checkbox'value="sonkas"></p>
+            <p>Húsimádó<input type='checkbox'value="">husimado</p>
+            <p>4 Sajtos<input type='checkbox'value="sajtos"></p>
         
-    </fieldset>
-    
-    <fieldset><legend>Mennyiség</legend>
-        <p>mennyiség: <input type="number" name="mennyiseg"> db</</p>
-    </fieldset>
-    
-    
-
+        </fieldset>
+        
+        <fieldset><legend>Mennyiség</legend>
+            <p>mennyiség: <input type="number" name="mennyiseg"> db</</p>
+            <input type='reset' name="visszaallitas">
+        <input type="submit" name="Küldés">
+        </fieldset>
+        
+    </form>
+    <div class="footer">
+        <p> BM  </p>
+        
+      </div>
+  
 </body>
 </html>
