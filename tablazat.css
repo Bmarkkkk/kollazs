@@ -10,10 +10,13 @@ table{
     background-color: wheat;
     margin: auto;
     color: blue;
+    width: 300px;
+    height: 200px;
 }
-td,tr,th{
-    border: 1px rgb(0, 0, 0) solid; 
+tr,td{
+    border: 2px rgb(0, 0, 0) solid; 
     padding: 0px;
+    
 }
 .leiras{
     height: 5vw;
